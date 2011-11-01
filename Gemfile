@@ -13,7 +13,8 @@ gem 'haml-rails'
 
 gem 'json'
 
-gem 'inboxes', :path => "/Users/kir/Sites/rails/inboxes-app/gems/inboxes"
+# gem 'inboxes', :path => "/Users/kir/Sites/rails/inboxes-app/gems/inboxes"
+gem 'inboxes', :git => "git://github.com/kirs/inboxes.git"
 
 # Gems used only for assets and not required
 # in production environments by default.

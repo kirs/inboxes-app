@@ -1,7 +1,9 @@
-PATH
-  remote: gems/inboxes
+GIT
+  remote: git://github.com/kirs/inboxes.git
+  revision: 6477ad7cdba8a06fa00be6c374aaa1cad2d2f505
   specs:
     inboxes (0.0.1)
+      haml-rails
 
 GEM
   remote: http://rubygems.org/

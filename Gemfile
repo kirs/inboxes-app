@@ -5,7 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'sqlite3'
 
 gem 'devise'
 
@@ -15,6 +15,7 @@ gem 'json'
 
 # gem 'inboxes', :path => "/Users/kir/Sites/rails/inboxes-app/gems/inboxes"
 gem 'inboxes', :git => "git://github.com/kirs/inboxes.git"
+gem "nifty-generators", :group => :development
 
 # Gems used only for assets and not required
 # in production environments by default.

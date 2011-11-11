@@ -1,6 +1,7 @@
 #Inboxes app
 
-An example Rails 3.1.1 app that works with [Inboxes gem](https://github.com/kirs/inboxes).
+An example Rails 3.1.1 app that works with [Inboxes gem](https://github.com/kirs/inboxes). Tested only with Ruby 1.8.7 and REE.
+
 
 ##Authors
 

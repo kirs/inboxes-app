@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
+gem 'rake', "0.8.7"
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -14,8 +15,9 @@ gem 'haml-rails'
 gem 'json'
 
 # gem 'inboxes', :path => "/Users/kir/Sites/rails/inboxes-app/gems/inboxes"
-gem 'inboxes', :git => "git://github.com/kirs/inboxes.git"
+gem 'inboxes', :path => "/Users/Kir/Sites/gems/inboxes"# :git => "git://github.com/kirs/inboxes.git"
 gem "nifty-generators", :group => :development
+gem "powder", :group => :development
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -37,4 +39,3 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-gem 'ruby-debug'

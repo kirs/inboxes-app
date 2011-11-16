@@ -46,5 +46,8 @@ module InboxesApp
     config.assets.version = '1.0'
     
     config.inboxes.user_name = :name
+    config.inboxes.faye_enabled = true
+    config.inboxes.faye_host = "inboxes-app.dev"
+    # config.inboxes.faye_port = 9292 # by default
   end
 end

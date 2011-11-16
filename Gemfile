@@ -13,6 +13,7 @@ gem 'devise'
 gem 'haml-rails'
 
 gem 'json'
+gem 'faye'
 
 # gem 'inboxes', :path => "/Users/kir/Sites/rails/inboxes-app/gems/inboxes"
 gem 'inboxes', :path => "/Users/Kir/Sites/gems/inboxes"# :git => "git://github.com/kirs/inboxes.git"

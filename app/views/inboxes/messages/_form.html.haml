@@ -1,0 +1,7 @@
+.message_form
+  = form_for Message.new, :url => discussion_messages_path(@discussion.id), :method => :post, :remote => true do |f|
+    %p
+      = f.label :body
+      %br
+      = f.text_area :body
+    %p= f.submit

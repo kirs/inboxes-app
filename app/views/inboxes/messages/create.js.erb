@@ -1,0 +1,4 @@
+<% inboxes_faye_broadcast "/discussions/#{@message.discussion.id}" do %> 
+  $("#messages_box").append("<%= escape_javascript render(@message) %>");
+  $("#new_message")[0].reset();
+<% end %>

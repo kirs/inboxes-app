@@ -12,5 +12,5 @@ class User < ActiveRecord::Base
   # SHOULD ADD this while installation
   # has_many :discussions
   
-  inboxes
+  has_inboxes
 end

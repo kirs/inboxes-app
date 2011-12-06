@@ -7,18 +7,19 @@ gem 'rake', "0.8.7"
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
 gem 'devise'
-
 gem 'haml-rails'
-
 gem 'json'
 gem 'faye'
 
-# gem 'inboxes', :path => "/Users/kir/Sites/rails/inboxes-app/gems/inboxes"
-gem 'inboxes', :path => "/Users/Kir/Sites/gems/inboxes"# :git => "git://github.com/kirs/inboxes.git"
-gem "nifty-generators", :group => :development
-gem "powder", :group => :development
+# gem 'inboxes', :path => "/Users/Kir/Sites/gems/inboxes"
+gem 'inboxes', :git => "git://github.com/evrone/inboxes.git"
+
+
+group :developement do
+  gem "nifty-generators"
+  gem "powder"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

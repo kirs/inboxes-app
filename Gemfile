@@ -7,7 +7,6 @@ gem 'rake', "0.8.7"
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'pg'
 gem 'devise'
 gem 'haml-rails'
 gem 'json'
@@ -20,6 +19,11 @@ gem 'inboxes', :git => "git://github.com/evrone/inboxes.git"
 group :developement do
   gem "nifty-generators"
   gem "powder"
+end
+
+group :production do
+  gem "therubyracer"
+  gem 'pg'
 end
 
 gem 'sass-rails',   '~> 3.1.4'

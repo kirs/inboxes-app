@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/evrone/inboxes.git
-  revision: ce5a603f5cefaa9baf442b4a647e3497dc1e6c37
+  revision: a90563c861d541b3e87b1b61160d4b11f450de5a
   specs:
     inboxes (0.1.5)
       cancan

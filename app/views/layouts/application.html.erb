@@ -13,7 +13,9 @@
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
       <% end %>
       <%= content_tag :h1, yield(:title) if show_title? %>
-      Unread messages: <%= @unread_discussions_count %>
+      <% if user_signed_in? %>
+        Unread messages: <%= @unread_discussions_count %>
+      <% end %>
         
       <%= yield %>
     </div>
